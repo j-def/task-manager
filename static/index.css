@@ -1,0 +1,31 @@
+.list-item{
+    padding: 25px;
+    border: solid 1px black;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 25px;
+}
+.list-container{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.todo-item{
+    border: solid 1px black;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.todo-item input{
+    outline: 0;
+}
+.add-box-btn{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.header{
+    width: 100%;
+    padding: 15px;
+}
